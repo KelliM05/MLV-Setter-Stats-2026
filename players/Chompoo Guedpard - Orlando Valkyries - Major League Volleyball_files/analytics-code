@@ -1,0 +1,40 @@
+// Fire pixel ONLY on Orlando Valkyries pages
+if (window.location.pathname.includes('/orlando-valkyries')) {
+
+  // Meta Pixel loader (JS-only version)
+  !function(f,b,e,v,n,t,s){
+    if(f.fbq) return;
+    n = f.fbq = function() {
+      n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments);
+    };
+    if(!f._fbq) f._fbq = n;
+    n.push = n;
+    n.loaded = true;
+    n.version = '2.0';
+    n.queue = [];
+    t = b.createElement(e);
+    t.async = true;
+    t.src = v;
+    s = b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t, s);
+  }(window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
+
+  fbq('init', '10049477408471268');
+  fbq('track', 'PageView');
+}
+
+
+
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-WE4MRT5B8L');
+
+ (function(w,d,s,l,i){  w[l]=w[l]||[];  w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});  var f=d.getElementsByTagName(s)[0],  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';  j.async=true;  j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;  f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-T6G36P79');
+
+const meta = document.createElement('meta');
+meta.name = 'google-site-verification';
+meta.content = 'hAo13gNeYfaSTYVbbFL3zCdUa-IeQIPLgCAnsl80fkE';
+
+document.head.appendChild(meta);

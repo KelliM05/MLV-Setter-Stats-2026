@@ -1,0 +1,31 @@
+// Google Ads — Dallas Pulse
+(function(){
+  var gtagScript = document.createElement('script');
+  gtagScript.async = true;
+  gtagScript.src = "https://www.googletagmanager.com/gtag/js?id=AW-17762008647";
+  document.head.appendChild(gtagScript);
+
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){ dataLayer.push(arguments); }
+
+  // When script loads, configure Ads
+  gtagScript.onload = function() {
+    gtag('js', new Date());
+    gtag('config', 'AW-17762008647');
+  };
+
+  // OPTIONAL: Expose conversion function if needed
+  window.gtag_report_conversion = function(url) {
+    var callback = function () {
+      if (typeof url !== 'undefined') {
+        window.location = url;
+      }
+    };
+    gtag('event', 'conversion', {
+      'send_to': 'AW-17762008647/dk5kCKi9l8obEMf8ypVC',
+      'transaction_id': '',
+      'event_callback': callback
+    });
+    return false;
+  };
+})();

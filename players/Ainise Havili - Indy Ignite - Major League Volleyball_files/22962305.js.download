@@ -1,0 +1,10 @@
+_iub.csRC = { consApiKey: 'eyM64Xl0bWEBUoAoDUNYYRUTq9KUlStc', consentDatabasePublicKey: '7F4EjyqNw4kHnG2uIdPSd5UJQMiYGCey', publicId: 'eeeac889-a422-451b-a9da-298453417dbc', floatingGroup: false };
+_iub.csEnabled = true;
+_iub.csPurposes = [1,2,3,4,5];
+_iub.tcfV = [];
+_iub.cpUpd = 1757693127;
+_iub.csFeatures = {"geolocation_setting":true,"cookie_solution_white_labeling":2,"rejection_recovery":true,"full_customization":true,"multiple_languages":true,"mobile_app_integration":true};
+_iub.csT = null;
+_iub.googleConsentModeV2 = true;
+_iub.totalNumberOfProviders = 4;
+_iub.csSiteConf = {"askConsentAtCookiePolicyUpdate":true,"countryDetection":true,"emailMarketing":{"styles":{"backgroundColor":"#000000","buttonsBackgroundColor":"#FFD100","buttonsTextColor":"#000000","footerBackgroundColor":"#FFFFFF","footerTextColor":"#000000","textColor":"#FFFFFF"},"theme":"dark"},"enableFadp":true,"enableLgpd":true,"enableRemoteConsent":true,"enableTcf":true,"enableUspr":true,"floatingPreferencesButtonDisplay":"bottom-left","gdprAppliesGlobally":false,"googleAdditionalConsentMode":true,"lang":"en","lgpdAppliesGlobally":false,"logLevel":"warn","perPurposeConsent":true,"promptToAcceptOnBlockedElements":true,"reloadOnConsent":true,"siteId":4131877,"storage":{"type":"local_storage","useSiteId":true},"tcfPurposes":{"2":"consent_only","7":"consent_only","8":"consent_only","9":"consent_only","10":"consent_only","11":"consent_only"},"usPreferencesWidgetDisplay":"bottom-left","whitelabel":false,"cookiePolicyId":22962305,"banner":{"acceptButtonCaptionColor":"#000000","acceptButtonColor":"#FFD100","acceptButtonDisplay":true,"backgroundOverlay":true,"closeButtonDisplay":false,"customizeButtonCaptionColor":"#000000","customizeButtonColor":"#FFFFFF","customizeButtonDisplay":true,"explicitWithdrawal":true,"listPurposes":true,"logo":"https://storage.googleapis.com/provolleyball-prod/upload/2025/08/05/357c9a31-b6d8-482f-b30e-a6bf86072b20.png","ownerName":"provolleyball.com","position":"bottom","rejectButtonCaptionColor":"#000000","rejectButtonColor":"#FFFFFF","rejectButtonDisplay":true,"showTitle":false,"showTotalNumberOfProviders":true}};
